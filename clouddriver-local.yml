@@ -41,7 +41,7 @@ kubernetes:
       omitKindExpressions: []
     oAuthScopes: []
     onlySpinnakerManaged: true
-  - name: myk8s
+  - name: yourk8s
     requiredGroupMembership: []
     permissions: {}
     dockerRegistries: []
