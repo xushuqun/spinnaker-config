@@ -1,0 +1,64 @@
+kubernetes:
+  enabled: true
+  accounts:
+  - name: spinnakerk82s
+    requiredGroupMembership: []
+    permissions: {}
+    dockerRegistries: []
+    providerVersion: V2
+    context: cls-dlc4adqw-context-default
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces: []
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /opt/spinnaker/kubeconfig/1355423705-config
+    rawResourcesEndpointConfig:
+      kindExpressions: []
+      omitKindExpressions: []
+    oAuthScopes: []
+    onlySpinnakerManaged: false
+  - name: shuduok8s
+    requiredGroupMembership: []
+    permissions: {}
+    dockerRegistries: []
+    providerVersion: V2
+    context: cls-dqmaeriy-807520193-context-default
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces: []
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /opt/spinnaker/kubeconfig/1355423706-config
+    rawResourcesEndpointConfig:
+      kindExpressions: []
+      omitKindExpressions: []
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  - name: myk8s
+    requiredGroupMembership: []
+    permissions: {}
+    dockerRegistries: []
+    providerVersion: V2
+    context: cls-dqmaeriy-807520193-context-default
+    configureImagePullSecrets: true
+    cacheThreads: 1
+    namespaces: []
+    omitNamespaces: []
+    kinds: []
+    omitKinds: []
+    customResources: []
+    cachingPolicies: []
+    kubeconfigFile: /opt/spinnaker/kubeconfig/1355423706-config
+    rawResourcesEndpointConfig:
+      kindExpressions: []
+      omitKindExpressions: []
+    oAuthScopes: []
+    onlySpinnakerManaged: true
+  primaryAccount: spinnakerk8s
